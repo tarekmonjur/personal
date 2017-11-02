@@ -35112,6 +35112,60 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
@@ -35251,6 +35305,18 @@ var render = function() {
               _vm._v(" "),
               _vm.all == true || _vm.webDevelopment == true
                 ? _c("li", { staticClass: "portfolio-item" }, [_vm._m(9)])
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.all == true || _vm.webDevelopment == true
+                ? _c("li", { staticClass: "portfolio-item" }, [_vm._m(10)])
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.all == true || _vm.webDevelopment == true
+                ? _c("li", { staticClass: "portfolio-item" }, [_vm._m(11)])
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.all == true || _vm.softwareDevelopment == true
+                ? _c("li", { staticClass: "portfolio-item" }, [_vm._m(12)])
                 : _vm._e()
             ])
           ])
@@ -35272,223 +35338,266 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "link-box", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "portfolio-hover" }, [
-        _c("div", { staticClass: "portfolio-hover-content" }, [
-          _c("h4", [_vm._v("LAMBA")]),
-          _vm._v(" "),
-          _c("p", [_vm._v("HRMS System")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "extra-ink" }, [
-            _c("i", {
-              staticClass: "fa fa-link",
-              attrs: { "aria-hidden": "true" }
-            }),
+    return _c(
+      "a",
+      {
+        staticClass: "link-box",
+        attrs: { href: "http://35.160.205.158/login", target: "_blank" }
+      },
+      [
+        _c("div", { staticClass: "portfolio-hover" }, [
+          _c("div", { staticClass: "portfolio-hover-content" }, [
+            _c("h4", [_vm._v("LAMBA")]),
             _vm._v(" "),
-            _c("i", {
-              staticClass: "fa fa-heart-o",
-              attrs: { "aria-hidden": "true" }
-            })
+            _c("p", [_vm._v("HRMS System")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "extra-ink" }, [
+              _c("i", {
+                staticClass: "fa fa-link",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("i", {
+                staticClass: "fa fa-heart-o",
+                attrs: { "aria-hidden": "true" }
+              })
+            ])
           ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "image" }, [
+          _c("img", {
+            staticStyle: { height: "180px!important" },
+            attrs: { alt: "", src: "image/pfolio-img9.PNG" }
+          })
         ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "image" }, [
-        _c("img", {
-          staticStyle: { height: "180px!important" },
-          attrs: { alt: "", src: "image/pfolio-img9.PNG" }
-        })
-      ])
-    ])
+      ]
+    )
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "link-box", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "portfolio-hover" }, [
-        _c("div", { staticClass: "portfolio-hover-content" }, [
-          _c("h4", [_vm._v("Simplicity Wanted")]),
-          _vm._v(" "),
-          _c("p", [_vm._v("Carrer & CV Builder")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "extra-ink" }, [
-            _c("i", {
-              staticClass: "fa fa-link",
-              attrs: { "aria-hidden": "true" }
-            }),
+    return _c(
+      "a",
+      {
+        staticClass: "link-box",
+        attrs: { href: "https://simplicitywanted.com/", target: "_blank" }
+      },
+      [
+        _c("div", { staticClass: "portfolio-hover" }, [
+          _c("div", { staticClass: "portfolio-hover-content" }, [
+            _c("h4", [_vm._v("Simplicity Wanted")]),
             _vm._v(" "),
-            _c("i", {
-              staticClass: "fa fa-heart-o",
-              attrs: { "aria-hidden": "true" }
-            })
+            _c("p", [_vm._v("Carrer & CV Builder")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "extra-ink" }, [
+              _c("i", {
+                staticClass: "fa fa-link",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("i", {
+                staticClass: "fa fa-heart-o",
+                attrs: { "aria-hidden": "true" }
+              })
+            ])
           ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "image" }, [
+          _c("img", {
+            staticStyle: { height: "180px!important" },
+            attrs: { alt: "", src: "image/pfolio-img7.PNG" }
+          })
         ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "image" }, [
-        _c("img", {
-          staticStyle: { height: "180px!important" },
-          attrs: { alt: "", src: "image/pfolio-img7.PNG" }
-        })
-      ])
-    ])
+      ]
+    )
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "link-box", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "portfolio-hover" }, [
-        _c("div", { staticClass: "portfolio-hover-content" }, [
-          _c("h4", [_vm._v("GunLook Up")]),
-          _vm._v(" "),
-          _c("p", [_vm._v("Gun Store")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "extra-ink" }, [
-            _c("i", {
-              staticClass: "fa fa-link",
-              attrs: { "aria-hidden": "true" }
-            }),
+    return _c(
+      "a",
+      { staticClass: "link-box", attrs: { href: "#", target: "_blank" } },
+      [
+        _c("div", { staticClass: "portfolio-hover" }, [
+          _c("div", { staticClass: "portfolio-hover-content" }, [
+            _c("h4", [_vm._v("GunLook Up")]),
             _vm._v(" "),
-            _c("i", {
-              staticClass: "fa fa-heart-o",
-              attrs: { "aria-hidden": "true" }
-            })
+            _c("p", [_vm._v("Gun Store")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "extra-ink" }, [
+              _c("i", {
+                staticClass: "fa fa-link",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("i", {
+                staticClass: "fa fa-heart-o",
+                attrs: { "aria-hidden": "true" }
+              })
+            ])
           ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "image" }, [
+          _c("img", { attrs: { alt: "", src: "image/pfolio-img5.jpg" } })
         ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "image" }, [
-        _c("img", { attrs: { alt: "", src: "image/pfolio-img5.jpg" } })
-      ])
-    ])
+      ]
+    )
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "link-box", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "portfolio-hover" }, [
-        _c("div", { staticClass: "portfolio-hover-content" }, [
-          _c("h4", [_vm._v("BD House")]),
-          _vm._v(" "),
-          _c("p", [_vm._v("House Booking System")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "extra-ink" }, [
-            _c("i", {
-              staticClass: "fa fa-link",
-              attrs: { "aria-hidden": "true" }
-            }),
+    return _c(
+      "a",
+      {
+        staticClass: "link-box",
+        attrs: { href: "http://pixelmind.com.bd/bdhouse/", target: "_blank" }
+      },
+      [
+        _c("div", { staticClass: "portfolio-hover" }, [
+          _c("div", { staticClass: "portfolio-hover-content" }, [
+            _c("h4", [_vm._v("BD House")]),
             _vm._v(" "),
-            _c("i", {
-              staticClass: "fa fa-heart-o",
-              attrs: { "aria-hidden": "true" }
-            })
+            _c("p", [_vm._v("House Booking System")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "extra-ink" }, [
+              _c("i", {
+                staticClass: "fa fa-link",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("i", {
+                staticClass: "fa fa-heart-o",
+                attrs: { "aria-hidden": "true" }
+              })
+            ])
           ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "image" }, [
+          _c("img", { attrs: { alt: "", src: "image/pfolio-img1.jpg" } })
         ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "image" }, [
-        _c("img", { attrs: { alt: "", src: "image/pfolio-img1.jpg" } })
-      ])
-    ])
+      ]
+    )
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "link-box", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "portfolio-hover" }, [
-        _c("div", { staticClass: "portfolio-hover-content" }, [
-          _c("h4", [_vm._v("Wedding")]),
-          _vm._v(" "),
-          _c("p", [_vm._v("Video Surpriser")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "extra-ink" }, [
-            _c("i", {
-              staticClass: "fa fa-link",
-              attrs: { "aria-hidden": "true" }
-            }),
+    return _c(
+      "a",
+      { staticClass: "link-box", attrs: { href: "#", target: "_blank" } },
+      [
+        _c("div", { staticClass: "portfolio-hover" }, [
+          _c("div", { staticClass: "portfolio-hover-content" }, [
+            _c("h4", [_vm._v("Wedding")]),
             _vm._v(" "),
-            _c("i", {
-              staticClass: "fa fa-heart-o",
-              attrs: { "aria-hidden": "true" }
-            })
+            _c("p", [_vm._v("Video Surpriser")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "extra-ink" }, [
+              _c("i", {
+                staticClass: "fa fa-link",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("i", {
+                staticClass: "fa fa-heart-o",
+                attrs: { "aria-hidden": "true" }
+              })
+            ])
           ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "image" }, [
+          _c("img", { attrs: { alt: "", src: "image/pfolio-img3.jpg" } })
         ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "image" }, [
-        _c("img", { attrs: { alt: "", src: "image/pfolio-img3.jpg" } })
-      ])
-    ])
+      ]
+    )
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "link-box", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "portfolio-hover" }, [
-        _c("div", { staticClass: "portfolio-hover-content" }, [
-          _c("h4", [_vm._v("Restaurant")]),
-          _vm._v(" "),
-          _c("p", [_vm._v("Online Food Order")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "extra-ink" }, [
-            _c("i", {
-              staticClass: "fa fa-link",
-              attrs: { "aria-hidden": "true" }
-            }),
+    return _c(
+      "a",
+      {
+        staticClass: "link-box",
+        attrs: { href: "http://pixelmind.com.bd/restaurant/", target: "_blank" }
+      },
+      [
+        _c("div", { staticClass: "portfolio-hover" }, [
+          _c("div", { staticClass: "portfolio-hover-content" }, [
+            _c("h4", [_vm._v("Restaurant")]),
             _vm._v(" "),
-            _c("i", {
-              staticClass: "fa fa-heart-o",
-              attrs: { "aria-hidden": "true" }
-            })
+            _c("p", [_vm._v("Online Food Order")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "extra-ink" }, [
+              _c("i", {
+                staticClass: "fa fa-link",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("i", {
+                staticClass: "fa fa-heart-o",
+                attrs: { "aria-hidden": "true" }
+              })
+            ])
           ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "image" }, [
+          _c("img", {
+            staticStyle: { height: "180px!important" },
+            attrs: { alt: "", src: "image/pfolio-img8.PNG" }
+          })
         ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "image" }, [
-        _c("img", {
-          staticStyle: { height: "180px!important" },
-          attrs: { alt: "", src: "image/pfolio-img8.PNG" }
-        })
-      ])
-    ])
+      ]
+    )
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "link-box", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "portfolio-hover" }, [
-        _c("div", { staticClass: "portfolio-hover-content" }, [
-          _c("h4", [_vm._v("ERP")]),
-          _vm._v(" "),
-          _c("p", [_vm._v("ERP Software Solution")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "extra-ink" }, [
-            _c("i", {
-              staticClass: "fa fa-link",
-              attrs: { "aria-hidden": "true" }
-            }),
+    return _c(
+      "a",
+      {
+        staticClass: "link-box",
+        attrs: { href: "http://erp.nanoit.biz/", target: "_blank" }
+      },
+      [
+        _c("div", { staticClass: "portfolio-hover" }, [
+          _c("div", { staticClass: "portfolio-hover-content" }, [
+            _c("h4", [_vm._v("ERP")]),
             _vm._v(" "),
-            _c("i", {
-              staticClass: "fa fa-heart-o",
-              attrs: { "aria-hidden": "true" }
-            })
+            _c("p", [_vm._v("ERP Software Solution")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "extra-ink" }, [
+              _c("i", {
+                staticClass: "fa fa-link",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("i", {
+                staticClass: "fa fa-heart-o",
+                attrs: { "aria-hidden": "true" }
+              })
+            ])
           ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "image" }, [
+          _c("img", {
+            staticStyle: { height: "180px!important" },
+            attrs: { alt: "", src: "image/pfolio-img10.PNG" }
+          })
         ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "image" }, [
-        _c("img", {
-          staticStyle: { height: "180px!important" },
-          attrs: { alt: "", src: "image/pfolio-img10.PNG" }
-        })
-      ])
-    ])
+      ]
+    )
   },
   function() {
     var _vm = this
@@ -35549,6 +35658,137 @@ var staticRenderFns = [
         _c("img", { attrs: { alt: "", src: "image/pfolio-img4.png" } })
       ])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass: "link-box",
+        attrs: {
+          href: "http://mediusware.com/demo/review/public/",
+          target: "_blank"
+        }
+      },
+      [
+        _c("div", { staticClass: "portfolio-hover" }, [
+          _c("div", { staticClass: "portfolio-hover-content" }, [
+            _c("h4", [_vm._v("Software Review")]),
+            _vm._v(" "),
+            _c("p", [_vm._v("Software Review Manager")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "extra-ink" }, [
+              _c("i", {
+                staticClass: "fa fa-link",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("i", {
+                staticClass: "fa fa-heart-o",
+                attrs: { "aria-hidden": "true" }
+              })
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "image", staticStyle: { height: "170px!important" } },
+          [_c("img", { attrs: { alt: "", src: "image/review.png" } })]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass: "link-box",
+        attrs: {
+          href: "http://mediusware.com/demo/paraliders/public/",
+          target: "_blank"
+        }
+      },
+      [
+        _c("div", { staticClass: "portfolio-hover" }, [
+          _c("div", { staticClass: "portfolio-hover-content" }, [
+            _c("h4", [_vm._v("Paraliders")]),
+            _vm._v(" "),
+            _c("p", [_vm._v("Online Resource and Feedback")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "extra-ink" }, [
+              _c("i", {
+                staticClass: "fa fa-link",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("i", {
+                staticClass: "fa fa-heart-o",
+                attrs: { "aria-hidden": "true" }
+              })
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "image", staticStyle: { height: "200px!important" } },
+          [_c("img", { attrs: { alt: "", src: "image/paraliders.png" } })]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass: "link-box",
+        attrs: {
+          href: "http://pixelmind.com.bd/stockmanage/",
+          target: "_blank"
+        }
+      },
+      [
+        _c("div", { staticClass: "portfolio-hover" }, [
+          _c("div", { staticClass: "portfolio-hover-content" }, [
+            _c("h4", [_vm._v("Stock Mange")]),
+            _vm._v(" "),
+            _c("p", [_vm._v("Inventory & POS")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "extra-ink" }, [
+              _c("i", {
+                staticClass: "fa fa-link",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("i", {
+                staticClass: "fa fa-heart-o",
+                attrs: { "aria-hidden": "true" }
+              })
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "image", staticStyle: { height: "170px!important" } },
+          [
+            _c("img", {
+              staticStyle: { height: "150px!important" },
+              attrs: { alt: "", src: "image/stockmanage.png" }
+            })
+          ]
+        )
+      ]
+    )
   }
 ]
 render._withStripped = true

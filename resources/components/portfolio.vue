@@ -15,7 +15,7 @@
 		<div>
 			<ul class="portfolio-wrapper clearfix">
 				<li class="portfolio-item" v-if="all==true || softwareDevelopment==true">
-					<a href="#" class="link-box">
+					<a href="http://35.160.205.158/login" target="_blank" class="link-box">
 						<div class="portfolio-hover">
 							<div class="portfolio-hover-content">
 								<h4>LAMBA</h4>
@@ -33,7 +33,7 @@
 				</li>
 
 				<li class="portfolio-item" v-if="all==true || webDevelopment==true || softwareDevelopment==true">
-					<a href="#" class="link-box">
+					<a href="https://simplicitywanted.com/" target="_blank" class="link-box">
 						<div class="portfolio-hover">
 							<div class="portfolio-hover-content">
 								<h4>Simplicity Wanted</h4>
@@ -51,7 +51,7 @@
 				</li>
 
 				<li class="portfolio-item" v-if="all==true || webDevelopment==true">
-					<a href="#" class="link-box">
+					<a href="#" class="link-box" target="_blank">
 						<div class="portfolio-hover">
 							<div class="portfolio-hover-content">
 								<h4>GunLook Up</h4>
@@ -69,7 +69,7 @@
 				</li>
 
 				<li class="portfolio-item" v-if="all==true || webDevelopment==true || softwareDevelopment==true">
-					<a href="#" class="link-box">
+					<a href="http://pixelmind.com.bd/bdhouse/" class="link-box" target="_blank">
 						<div class="portfolio-hover">
 							<div class="portfolio-hover-content">
 								<h4>BD House</h4>
@@ -87,7 +87,7 @@
 				</li>
 
 				<li class="portfolio-item" v-if="all==true || webDevelopment==true">
-					<a href="#" class="link-box">
+					<a href="#" class="link-box" target="_blank">
 					    <div class="portfolio-hover">
 							<div class="portfolio-hover-content">
 								<h4>Wedding</h4>
@@ -105,7 +105,7 @@
 				</li>
 
 				<li class="portfolio-item" v-if="all==true || softwareDevelopment==true">
-					<a href="#" class="link-box">
+					<a href="http://pixelmind.com.bd/restaurant/" class="link-box" target="_blank">
 						<div class="portfolio-hover">
 							<div class="portfolio-hover-content">
 								<h4>Restaurant</h4>
@@ -123,7 +123,7 @@
 				</li>
 
 				<li class="portfolio-item" v-if="all==true || softwareDevelopment==true">
-					<a href="#" class="link-box">
+					<a href="http://erp.nanoit.biz/" class="link-box" target="_blank">
 						<div class="portfolio-hover">
 							<div class="portfolio-hover-content">
 								<h4>ERP</h4>
@@ -174,6 +174,60 @@
 							<img alt="" src="image/pfolio-img4.png">
 						</div>
 					</a>							
+				</li>
+
+				<li class="portfolio-item" v-if="all==true || webDevelopment==true">
+					<a href="http://mediusware.com/demo/review/public/" class="link-box" target="_blank">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-content">
+								<h4>Software Review</h4>
+								<p>Software Review Manager</p>
+								<div class="extra-ink">
+									<i class="fa fa-link" aria-hidden="true"></i>
+									<i class="fa fa-heart-o" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+						<div class="image" style="height: 170px!important;">
+							<img alt="" src="image/review.png">
+						</div>
+					</a>
+				</li>
+
+				<li class="portfolio-item" v-if="all==true || webDevelopment==true">
+					<a href="http://mediusware.com/demo/paraliders/public/" class="link-box" target="_blank">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-content">
+								<h4>Paraliders</h4>
+								<p>Online Resource and Feedback</p>
+								<div class="extra-ink">
+									<i class="fa fa-link" aria-hidden="true"></i>
+									<i class="fa fa-heart-o" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+						<div class="image" style="height: 200px!important;">
+							<img alt="" src="image/paraliders.png">
+						</div>
+					</a>
+				</li>
+
+				<li class="portfolio-item" v-if="all==true || softwareDevelopment==true">
+					<a href="http://pixelmind.com.bd/stockmanage/" class="link-box" target="_blank">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-content">
+								<h4>Stock Mange</h4>
+								<p>Inventory & POS</p>
+								<div class="extra-ink">
+									<i class="fa fa-link" aria-hidden="true"></i>
+									<i class="fa fa-heart-o" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+						<div class="image" style="height: 170px!important;">
+							<img alt="" src="image/stockmanage.png" style="height:150px!important">
+						</div>
+					</a>
 				</li>
 			</ul>			
 		</div>	
