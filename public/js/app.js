@@ -35710,7 +35710,7 @@ var staticRenderFns = [
       {
         staticClass: "link-box",
         attrs: {
-          href: "http://mediusware.com/demo/paraliders/public/",
+          href: "http://mediusware.com/demo/paraliders",
           target: "_blank"
         }
       },
