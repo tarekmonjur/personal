@@ -195,7 +195,7 @@
 				</li>
 
 				<li class="portfolio-item" v-if="all==true || webDevelopment==true">
-					<a href="http://mediusware.com/demo/paraliders/public/" class="link-box" target="_blank">
+					<a href="http://mediusware.com/demo/paraliders" class="link-box" target="_blank">
 						<div class="portfolio-hover">
 							<div class="portfolio-hover-content">
 								<h4>Paraliders</h4>
